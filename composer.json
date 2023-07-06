@@ -14,6 +14,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/kporras07/composer-secrets-manipulation-plugin.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/namespacebrian/admin_toolbar.git"
         }
     ],
@@ -24,7 +28,8 @@
         "drupal/core-recommended": "^10",
         "pantheon-systems/drupal-integrations": "^10",
         "cweagans/composer-patches": "^1.7",
-        "drupal/pantheon_secrets": "^1",
+        "kporras07/secrets-manipulation-plugin": "*",
+        "pantheon/admin_toolbar": "*",
         "drush/drush": "^11 || ^12"
     },
     "require-dev": {
@@ -36,6 +41,13 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
+        "composer-secrets-manipulation-plugin": {
+            "envVarsMapping": [
+                {
+                    "COMPOSER_AUTH_c13a9f02-fd87-4b3a-9c4f-a27fcf2bc9f3": "COMPOSER_AUTH"
+                }
+            ]
+        }
         "drupal-scaffold": {
             "locations": {
                 "web-root": "./web"
