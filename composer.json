@@ -15,10 +15,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/kporras07/composer-secrets-manipulation-plugin.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/namespacebrian/admin_toolbar.git"
         }
     ],
     "require": {
@@ -29,7 +25,6 @@
         "pantheon-systems/drupal-integrations": "^10",
         "cweagans/composer-patches": "^1.7",
         "kporras07/secrets-manipulation-plugin": "*",
-        "pantheon/admin_toolbar": "*",
         "drush/drush": "^11 || ^12"
     },
     "require-dev": {
