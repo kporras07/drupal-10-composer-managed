@@ -41,13 +41,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
-        "composer-secrets-manipulation-plugin": {
-            "envVarsMapping": [
-                {
-                    "COMPOSER_AUTH_c13a9f02-fd87-4b3a-9c4f-a27fcf2bc9f3": "COMPOSER_AUTH"
-                }
-            ]
-        }
         "drupal-scaffold": {
             "locations": {
                 "web-root": "./web"
