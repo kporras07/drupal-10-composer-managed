@@ -11,10 +11,6 @@
         {
             "type": "path",
             "url": "upstream-configuration"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/namespacebrian/admin_toolbar.git"
         }
     ],
     "require": {
